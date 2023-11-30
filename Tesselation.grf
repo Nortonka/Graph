@@ -1,0 +1,337 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.5.0.586
+MinVersion = 2.5
+OS = Windows NT 6.1 Service Pack 1
+
+[Axes]
+xMin = -225.465800890451
+xMax = 199.151046876216
+xTickUnit = 50
+xGridUnit = 50
+yMin = -133.068732684557
+yMax = 291.548115082111
+yTickUnit = 50
+yGridUnit = 50
+AxesColor = clBlue
+GridColor = 0x00FF9999
+ShowLegend = 1
+Radian = 1
+AxesStyle = 2
+
+[Func1]
+FuncType = 1
+x = 8*(integrate(5*cos(5*(cos(t)+0.05t)+0.4),0,4t))
+y = -8*(integrate(5*sin(5*(cos(t)+0.05t)+0.4),0,4t))
+Visible = 0
+LegendText = Tesselation 1/1
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func2]
+FuncType = 1
+x = 8*(integrate(4*cos(5*cos(1.3t*2)+15.5t),0,4t))
+y = 8*(integrate(4*sin(5*cos(1.3t*2)+15.5t),0,4t))
+Visible = 0
+LegendText = Tesselation 1/2 (original)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func3]
+FuncType = 1
+x = 6*(integrate(4*cos(5*cos(2.6t)+15.5t),0,4t))
+y = 6*(integrate(4*sin(5*cos(2.6t)+15.5t),0,4t))+6
+Visible = 0
+LegendText = Tesselation 2  (original and colorized)
+From = -10
+To = 10
+Steps = 1000
+Color = clNavy
+Size = 3
+
+[Func4]
+FuncType = 1
+x = 8*(integrate(5*cos(5*(cos(t)+0.55t)+0.4),0,2t))+30
+y = -8*(integrate(5*sin(5*(cos(t)+0.55t)+0.4),0,2t))
+Visible = 0
+LegendText = Tesselation 3
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func5]
+FuncType = 1
+x = 8*(integrate(5*cos(5*(cos(t)+0.85t)+0.4),0,2t))
+y = -8*(integrate(5*sin(5*(cos(t)+0.85t)+0.4),0,2t))+120
+Visible = 0
+LegendText = Tesselation 4
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func6]
+FuncType = 1
+x = 8*(integrate(5*cos(5*(cos(t)+1.25t)+0.4),0,2t))
+y = -8*(integrate(5*sin(5*(cos(t)+1.25t)+0.4),0,2t))
+Visible = 0
+LegendText = Tesselation 5
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func7]
+FuncType = 1
+x = 8*(integrate(5*cos(5*(cos(t)+0.15t)+0.4),0,4t))+40
+y = -8*(integrate(5*sin(5*(cos(t)+0.15t)+0.4),0,4t))
+Visible = 0
+LegendText = Tesselation 6
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func8]
+FuncType = 1
+x = 8*(integrate(8*cos(5*(cos(t)+0.98t)+0.4),0,4t))-80
+y = -8*(integrate(8*sin(5*(cos(t)+0.98t)+0.4),0,4t))+50
+Visible = 0
+LegendText = Tesselation 7
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func9]
+FuncType = 1
+x = 8*(integrate(8*cos(5*(cos(t)+0.68t)+0.4),0,4t))-50
+y = -8*(integrate(8*sin(5*(cos(t)+0.68t)+0.4),0,4t))+50
+Visible = 0
+LegendText = Tesselation 8
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func10]
+FuncType = 1
+x = 8*(integrate(4*cos(5*(cos(t)+0.18t)+0.4),0,4t))+80
+y = -8*(integrate(4*sin(5*(cos(t)+0.18t)+0.4),0,4t))+50
+Visible = 0
+LegendText = Tesselation 9
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func11]
+FuncType = 1
+x = 8*(integrate(8*cos(5*(cos(t)+0.03t)+0.4),0,4t))+80
+y = -8*(integrate(8*sin(5*(cos(t)+0.03t)+0.4),0,4t))+50
+Visible = 0
+LegendText = Tesselation 10
+From = -20
+To = 20
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func12]
+FuncType = 1
+x = 8*(integrate(8*cos(5*(cos(t)+0.72t)+0.4),0,4t))
+y = -8*(integrate(8*sin(5*(cos(t)+0.72t)+0.4),0,4t))+50
+Visible = 0
+LegendText = Tesselation 11
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func13]
+FuncType = 1
+x = 8*(integrate(8*cos(5*(cos(t)+0.75t)+0.4),0,4t))
+y = -8*(integrate(8*sin(5*(cos(t)+0.75t)+0.4),0,4t))+20
+Visible = 0
+LegendText = Tesselation 12
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func14]
+FuncType = 1
+x = 8*(integrate(8*cos(5*(cos(t)+0.752t)+0.4),0,4t))
+y = -8*(integrate(8*sin(5*(cos(t)+0.752t)+0.4),0,4t))+20
+Visible = 0
+LegendText = Tesselation 13
+From = -20
+To = 20
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func15]
+FuncType = 1
+x = 8*(integrate(8*cos(5*(cos(t)+0.65t)+0.4),0,4t))
+y = -8*(integrate(8*sin(5*(cos(t)+0.65t)+0.4),0,4t))+20
+Visible = 0
+LegendText = Tesselation 14
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func16]
+FuncType = 1
+x = 8*(integrate(8*cos(5*(cos(t)+0.5t)+0.8),0,4t))
+y = -8*(integrate(8*sin(5*(cos(t)+0.5t)+0.8),0,4t))+20
+Visible = 0
+LegendText = Tesselation 15
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func17]
+FuncType = 1
+x = 8*(integrate(10*cos(2pi*(cos(t)+0.68t)+0.4),0,4t))
+y = 8*(integrate(10*sin(2pi*(cos(t)+0.68t)+0.4),0,4t))+50
+Visible = 0
+LegendText = Tesselation 16
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func18]
+FuncType = 1
+x = 8*(integrate(10*cos(5*(cos(t)+0.18t-0.42t)+0.5),0,4t))+80
+y = -8*(integrate(10*sin(5*(cos(t)+0.18t-0.42t)+0.5),0,4t))+50
+Visible = 0
+LegendText = Tesselation 17
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func19]
+FuncType = 1
+x = 8*(integrate(10*cos(5*(cos(t)+0.18t-0.72t)+0.5),0,4t))+80
+y = -8*(integrate(10*sin(5*(cos(t)+0.18t-0.72t)+0.5),0,4t))+50
+Visible = 0
+LegendText = Tesselation 18
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func20]
+FuncType = 1
+x = 8*(integrate(8*cos(5*(cos(t)+0.18t-0.82t)+0.5),0,4t))+80
+y = 8*(integrate(8*sin(5*(cos(t)+0.18t-0.82t)+0.5),0,4t))+50
+Visible = 0
+LegendText = Tesselation 19
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func21]
+FuncType = 1
+x = 8*(integrate(8*cos(5*(cos(t)+0.18t-1.22t)+0.5),0,4t))+80
+y = -8*(integrate(8*sin(5*(cos(t)+0.18t-1.22t)+0.5),0,4t))+50
+Visible = 0
+LegendText = Tesselation 20
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func22]
+FuncType = 1
+x = 8*(integrate(8*cos(5*(cos(t)+0.18t-1.36t)+0.5),0,4t))+80
+y = -8*(integrate(8*sin(5*(cos(t)+0.18t-1.36t)+0.5),0,4t))+50
+Visible = 0
+LegendText = Tesselation 21
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func23]
+FuncType = 1
+x = 8*(integrate(18*cos(5*(cos(t)+0.18t-1.26t)+0.5),0,4t))+80
+y = -8*(integrate(18*sin(5*(cos(t)+0.18t-1.26t)+0.5),0,4t))+50
+Visible = 0
+LegendText = Tesselation 22
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func24]
+FuncType = 1
+x = 32*integrate(cos(t*1/5+3*sin(t)),0,2t)
+y = 32*integrate(sin(t*1/5+3*sin(t)),0,2t)
+Visible = 0
+LegendText = Tesselation 23
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func25]
+FuncType = 1
+x = 32*integrate(cos(t*1/10+3*sin(t)),0,4t)
+y = 32*integrate(sin(t*1/10+3*sin(t)),0,4t)
+Visible = 0
+LegendText = Tesselation 24
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Label1]
+Placement = 0
+Pos = 2.89540573821418;-72.6635792738429
+Text = {\\rtf1\\ansi\\ansicpg1250\\deff0\\deflang1038{\\fonttbl{\\f0\\fnil\\fcharset238{\\*\\fname Times New Roman;}Times New Roman CE;}{\\f1\\fnil Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;\\red248\\green248\\blue248;}\n\\viewkind4\\uc1\\pard\\cf1\\b\\f0\\fs32 --------------\\par\n\\par\n\\cf2\\f1\\par\n}\n
+BackgroundColor = clNone
+Visible = 0
+ShowInLegend = 0
+
+[Data]
+TextLabelCount = 1
+FuncCount = 25
+PointSeriesCount = 0
+ShadeCount = 0
+RelationCount = 0
+
