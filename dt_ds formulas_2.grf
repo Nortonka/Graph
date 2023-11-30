@@ -1,0 +1,397 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.5.0.586
+MinVersion = 2.5
+OS = Windows NT 6.1 Service Pack 1
+
+[Axes]
+xMin = -18.9777616397426
+xMax = 22.8372699860113
+xTickUnit = 2
+xGridUnit = 2
+yMin = -17.1021860601663
+yMax = 24.7128455655875
+yTickUnit = 5
+yGridUnit = 5
+AxesColor = clBlue
+GridColor = 0x00FF9999
+ShowLegend = 0
+Radian = 1
+Title = dt/ds formulas 2
+
+[Func1]
+FuncType = 1
+x = 4*integrate(cos(t^2),0,cos(0.35t))
+y = 4*integrate(sin(t^2),0,sin(0.35t))
+Visible = 0
+LegendText = dt/ds=sin&cos(t^2) [sin&cos(0.35t)] (1/2)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func2]
+FuncType = 1
+x = 4*integrate(sin(t^2),0,cos(0.35t))
+y = 4*integrate(cos(t^2),0,sin(0.35t))
+Visible = 0
+LegendText = dt/ds=sin&cos(t^2) [sin&cos(0.35t)] (2/2)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func3]
+FuncType = 1
+x = 4*integrate(cos(1-t^6),0,cos(0.55t))
+y = 4*integrate(sin(1-t^6),0,sin(0.55t))
+Visible = 0
+LegendText = dt/ds=sin&cos(1-t^6) [sin&cos(0.55t)]
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func4]
+FuncType = 1
+x = 4*integrate(cos(2-t^6),0,cos(0.55t))
+y = 4*integrate(sin(2-t^6),0,sin(0.55t))
+Visible = 0
+LegendText = dt/ds=sin&cos(2-t^6) [sin&cos(0.55t)] (1/2)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func5]
+FuncType = 1
+x = 4*integrate(sin(2-t^6),0,cos(0.55t))
+y = 4*integrate(cos(2-t^6),0,sin(0.55t))
+Visible = 0
+LegendText = dt/ds=sin&cos(2-t^6) [sin&cos(0.55t)] (2/2)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func6]
+FuncType = 1
+x = 4*integrate(cos(3-t^6),0,cos(0.55t))
+y = 4*integrate(sin(3-t^6),0,sin(0.55t))
+Visible = 0
+LegendText = dt/ds=sin&cos(3-t^6) [sin&cos(0.55t)] (1/2)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func7]
+FuncType = 1
+x = 4*integrate(sin(3-t^6),0,cos(0.55t))
+y = 4*integrate(cos(3-t^6),0,sin(0.55t))
+Visible = 0
+LegendText = dt/ds=sin&cos(3-t^6) [sin&cos(0.55t)] (2/2)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func8]
+FuncType = 1
+x = 4*integrate(cos(7-t^6),0,cos(0.55t))
+y = 4*integrate(sin(7-t^6),0,sin(0.55t))
+Visible = 0
+LegendText = dt/ds=sin&cos(7-t^6) [sin&cos(0.55t)]
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func9]
+FuncType = 1
+x = 4*integrate(cos(7-t^6),0,cos(0.55t))
+y = 4*integrate(sin(7-t^6),0,sin(0.55t))
+Visible = 0
+LegendText = dt/ds=sin&cos(7-t^6) [sin&cos(0.55t)]
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func10]
+FuncType = 1
+x = 4*integrate(cos(8-t^6),0,cos(0.55t))
+y = 4*integrate(sin(8-t^6),0,sin(0.55t))
+Visible = 0
+LegendText = dt/ds=sin&cos(8-t^6) [sin&cos(0.55t)]
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func11]
+FuncType = 1
+x = 4*integrate(cos(8-t^6),0,cos(0.55t))
+y = 4*integrate(sin(8-t^6),0,sin(0.55t))
+Visible = 0
+LegendText = dt/ds=sin&cos(8-t^6) [sin&cos(0.55t)] (1/2)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func12]
+FuncType = 1
+x = 4*integrate(sin(8-t^6),0,cos(0.55t))
+y = 4*integrate(cos(8-t^6),0,sin(0.55t))
+Visible = 0
+LegendText = dt/ds=sin&cos(8-t^6) [sin&cos(0.55t)] (2/2)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func13]
+FuncType = 1
+x = 4*integrate(sin(8-t^2),0,cos(0.55t))
+y = 4*integrate(cos(8-t^2),0,sin(0.55t))
+Visible = 0
+LegendText = dt/ds=sin&cos(8-t^2) [sin&cos(0.55t)] (1/2)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func14]
+FuncType = 1
+x = 4*integrate(cos(8-t^2),0,cos(0.55t))
+y = 4*integrate(sin(8-t^2),0,sin(0.55t))
+Visible = 0
+LegendText = dt/ds=sin&cos(8-t^2) [sin&cos(0.55t)] (2/2)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func15]
+FuncType = 1
+x = 4*integrate(sin(5-t^2),0,cos(0.55t))
+y = 4*integrate(cos(5-t^2),0,sin(0.55t))
+Visible = 0
+LegendText = dt/ds=sin&cos(5-t^2) [sin&cos(0.55t)] (1/2)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func16]
+FuncType = 1
+x = 4*integrate(cos(5-t^2),0,cos(0.55t))
+y = 4*integrate(sin(5-t^2),0,sin(0.55t))
+Visible = 0
+LegendText = dt/ds=sin&cos(5-t^2) [sin&cos(0.55t)] (2/2)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func17]
+FuncType = 1
+x = 16*(integrate(cos(14t)+cos(14t)/2+cos(8t)+sin(12t)/32,0,0.5t))
+y = 16*(integrate(sin(14t)+sin(14t)/2+sin(8t)+sin(12t)/32,0,0.5t))
+Visible = 0
+LegendText = dt/ds=sin&cos(cos(14t)+cos(14t)/3+sin(8t)/8+sin(12t)/32
+From = -8
+To = 8
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func18]
+FuncType = 1
+x = 16*(integrate(cos(14t)+(cos(8t))+sin(12t)/32,0,0.5t))
+y = 16*(integrate(sin(14t)+(sin(8t))+sin(12t)/32,0,0.5t))
+Visible = 0
+LegendText = dt/ds=sin&cos(cos(14t)+sin(8t)+sin(12t)/32
+From = -8
+To = 8
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func19]
+FuncType = 1
+x = (integrate(4*-sin(cosh(0.8t)+cosh(0.8t)/4),0,0.4t))
+y = (integrate(4*cos(cosh(0.8t)+cosh(0.8t)/4),0,0.4t))
+Visible = 0
+LegendText = dt/ds=cosh(0.8t)+cosh(0.8t)/4 [0;0.4t] (1/4)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func20]
+FuncType = 1
+x = (integrate(4*sin(cosh(0.8t)+cosh(0.8t)/4),0,0.4t))
+y = (integrate(4*cos(cosh(0.8t)+cosh(0.8t)/4),0,0.4t))
+Visible = 0
+LegendText = dt/ds=cosh(0.8t)+cosh(0.8t)/4 [0;0.4t] (2/4)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func21]
+FuncType = 1
+x = (integrate(4*-cos(cosh(0.8t)+cosh(0.8t)/4),0,0.4t))
+y = (integrate(4*sin(cosh(0.8t)+cosh(0.8t)/4),0,0.4t))
+Visible = 0
+LegendText = dt/ds=cosh(0.8t)+cosh(0.8t)/4 [0;0.4t] (3/4)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func22]
+FuncType = 1
+x = (integrate(4*cos(cosh(0.8t)+cosh(0.8t)/4),0,0.4t))
+y = (integrate(4*sin(cosh(0.8t)+cosh(0.8t)/4),0,0.4t))
+Visible = 0
+LegendText = dt/ds=cosh(0.8t)+cosh(0.8t)/4 [0;0.4t] (4/4)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func23]
+FuncType = 1
+x = 8*(integrate(cos(0.5t*cos(1-cos(0.205t)) ),0,3.98t))
+y = 8*(integrate(sin( 0.5t*cos(1-cos(0.205t)) ),0,3.98t))
+Visible = 0
+LegendText = 130. dt/ds= (0.5t*cos(cos(0.205t) [0;3.98t]
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func24]
+FuncType = 1
+x = -2*(integrate(4*cos(0.1t*0.6t^2-0.915t),0,0.6t))
+y = -2*(integrate(4*sin(0.1t*0.6t^2-0.915t),0,0.6t))
+Visible = 0
+LegendText = dt/ds=0.1t*0.6t^2-0.915t (1/4)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func25]
+FuncType = 1
+x = 5*(integrate(3*-cos(cosh(0.8t)+cosh(0.8t)/4),0,0.38t))
+y = 5*abs((integrate(3*sin(cosh(0.8t)+cosh(0.8t)/4),0,0.38t)))
+Visible = 0
+LegendText = dt/ds=cosh(0.8t)+cosh(0.8t)/4 [0;0.4t] (2/4)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func26]
+FuncType = 1
+x = 2*(integrate(4*cos(0.1t*0.6t^2-0.915t),0,0.6t))
+y = 2*(integrate(4*sin(0.1t*0.6t^2-0.915t),0,0.6t))
+Visible = 0
+LegendText = dt/ds=0.1t*0.6t^2-0.915t (3/4)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func27]
+FuncType = 1
+x = 5*(integrate(3*-cos(cosh(0.8t)+cosh(0.8t)/4),0,0.38t))
+y = -5*abs((integrate(3*sin(cosh(0.8t)+cosh(0.8t)/4),0,0.38t)))
+Visible = 0
+LegendText = dt/ds=cosh(0.8t)+cosh(0.8t)/4 [0;0.4t] (4/4)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func28]
+FuncType = 1
+x = 16*integrate(cos(0.2t+t^4+1.29t),0,0.2t)
+y = 16*integrate(sin(0.2t+t^4+1.29t),0,0.2t)
+LegendText = dt/ds=0.2t+t^4+1.29t (1/2)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func29]
+FuncType = 1
+x = 16*integrate(-cos(0.2t+t^4+1.29t),0,0.2t)
+y = 16*integrate(sin(0.2t+t^4+1.29t),0,0.2t)
+LegendText = dt/ds=0.2t+t^4+1.29t (2/2)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func30]
+FuncType = 1
+x = 16*integrate(cos(0.2t+sinh(t)*sinh(t)*sinh(t)*sinh(t)*sinh(t)*sinh(t)+3t),0,0.12t)
+y = 16*integrate(sin(0.2t+sinh(t)*sinh(t)*sinh(t)*sinh(t)*sinh(t)*sinh(t)+3t),0,0.12t)
+LegendText = dt/ds=cos&sin(0.2t+sinh(t)^6+3t)  (csiga) (1/2)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Func31]
+FuncType = 1
+x = 16*integrate(-cos(0.2t+sinh(t)*sinh(t)*sinh(t)*sinh(t)*sinh(t)*sinh(t)+3t),0,0.12t)
+y = 16*integrate(sin(0.2t+sinh(t)*sinh(t)*sinh(t)*sinh(t)*sinh(t)*sinh(t)+3t),0,0.12t)
+LegendText = dt/ds=-cos&sin(0.2t+sinh(t)^6+3t)  (csiga) (2/2)
+From = -10
+To = 10
+Steps = 1000
+Color = clBlack
+Size = 3
+
+[Data]
+TextLabelCount = 0
+FuncCount = 31
+PointSeriesCount = 0
+ShadeCount = 0
+RelationCount = 0
+
